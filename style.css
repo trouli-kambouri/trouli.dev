@@ -1,14 +1,10 @@
-/* General page styling */
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: #9000A2;
 }
-
-
-/* Navigation bar */
 
 nav {
     display: flex;
@@ -17,20 +13,14 @@ nav {
 
     padding: 20px 40px;
 
-    background-color: #222;
+    background-color: #9000A2;
     color: white;
 }
 
-
-/* Portfolio name */
-
-.logo {
+.name {
     font-size: 24px;
     font-weight: bold;
 }
-
-
-/* Navigation links */
 
 .nav-links {
     display: flex;
@@ -46,15 +36,9 @@ nav {
     text-decoration: underline;
 }
 
-
-/* Main sections */
-
 section {
     padding: 80px 10%;
 }
-
-
-/* Hero section */
 
 .hero {
     text-align: center;
@@ -71,30 +55,23 @@ section {
     font-size: 20px;
 }
 
-
-/* Button */
-
 .button {
     display: inline-block;
 
     margin-top: 20px;
     padding: 12px 25px;
 
-    background-color: #222;
+    background-color: #9000A2;
     color: white;
 
     text-decoration: none;
     border-radius: 5px;
 }
 
-
-/* Projects */
-
 .projects {
     display: flex;
     gap: 20px;
 }
-
 
 .project {
     flex: 1;
@@ -105,13 +82,9 @@ section {
     border-radius: 8px;
 }
 
-
 .project a {
-    color: #333;
+    color: #9000A2;
 }
-
-
-/* Headings */
 
 h2 {
     font-size: 32px;
