@@ -1,0 +1,118 @@
+/* General page styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+/* Navigation bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background-color: #222;
+    color: white;
+}
+
+
+/* Portfolio name */
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navigation links */
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main sections */
+
+section {
+    padding: 80px 10%;
+}
+
+
+/* Hero section */
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 12px 25px;
+
+    background-color: #222;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Projects */
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+
+.project {
+    flex: 1;
+
+    padding: 25px;
+
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.project a {
+    color: #333;
+}
+
+
+/* Headings */
+
+h2 {
+    font-size: 32px;
+}
