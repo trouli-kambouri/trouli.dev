@@ -1,9 +1,13 @@
+:root {
+  --main-color: black;
+  --text-color: white;
+}
 
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-    color: #9000A2;
+    background-color: var(--text-color);
+    color: var(--main-color(20, 1, 1));
 }
 
 nav {
@@ -13,8 +17,8 @@ nav {
 
     padding: 20px 40px;
 
-    background-color: #9000A2;
-    color: white;
+    background-color: var(--main-color);
+    color: var(--main-color);
 }
 
 .name {
@@ -28,7 +32,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -43,7 +47,7 @@ section {
 .hero {
     text-align: center;
     padding: 120px 20px;
-    background-color: white;
+    background-color: var(--text-color);
 }
 
 .hero h1 {
@@ -61,8 +65,8 @@ section {
     margin-top: 20px;
     padding: 12px 25px;
 
-    background-color: #9000A2;
-    color: white;
+    background-color: var(--main-color);
+    color: var(--text-color);
 
     text-decoration: none;
     border-radius: 5px;
@@ -78,12 +82,12 @@ section {
 
     padding: 25px;
 
-    background-color: white;
+    background-color: var(--text-color);
     border-radius: 8px;
 }
 
 .project a {
-    color: #9000A2;
+    color: var(--main-color);
 }
 
 h2 {
