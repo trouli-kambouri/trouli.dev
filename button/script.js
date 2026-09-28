@@ -35,7 +35,10 @@ async function clickButton()
 
 function displayClickCount(clicks)
 {
-    document.getElementById("numberOfClicks").textContent = clicks
+    if (clicks > document.getElementById("numberOfClicks").textContent)
+    {
+        document.getElementById("numberOfClicks").textContent = clicks
+    }
     displayTimeSpentClicking(clicks)
 }
 
