@@ -22,12 +22,14 @@ async function getClickCount()
 
 async function clickButton()
 {
-    const { error } = await supabaseClient
+    const { data, error } = await supabaseClient
         .rpc("increment_clicks")
     if (error)
     {
         console.error(error)
+        return
     }
+    displayClickCount(data)
 }
 
 
