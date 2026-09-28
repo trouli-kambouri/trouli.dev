@@ -1,4 +1,4 @@
-const supabase = window.supabase.createClient(
+const supabaseClient = window.supabase.createClient(
     "https://hmnqssfritstinuczbrb.supabase.co",
     "sb_publishable_dUsMc7XNS73rzs8ZMjMa-w_vcOmUAoh"
 )
@@ -6,7 +6,7 @@ const supabase = window.supabase.createClient(
 
 async function getClickCount()
 {
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
         .from("game_counter")
         .select("clicks")
         .eq("id", 1)
@@ -22,7 +22,7 @@ async function getClickCount()
 
 async function clickButton()
 {
-    const { error } = await supabase
+    const { error } = await supabaseClient
         .rpc("increment_clicks")
     if (error)
     {
@@ -81,7 +81,7 @@ function displayTimeSpentClicking(clicks)
 }
 
 
-supabase
+supabaseClient
     .channel("game-counter")
     .on(
         "postgres_changes",
