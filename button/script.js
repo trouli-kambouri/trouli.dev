@@ -82,7 +82,7 @@ function displayTimeSpentClicking(clicks)
     }
 
     document.getElementById("timeSpentClicking").textContent =
-        "Time people have spent clicking this button: " + timeText + "."
+        "Time people have spent clicking this button: " + timeText
 }
 
 
