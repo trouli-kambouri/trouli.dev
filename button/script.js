@@ -45,7 +45,7 @@ function displayClickCount(clicks)
 
 function displayTimeSpentClicking(clicks)
 {
-    let s = clicks * 0.135
+    let s = clicks * 0.155
 
     let hours = Math.floor(s / 3600)
     let minutes = Math.floor((s % 3600) / 60)
