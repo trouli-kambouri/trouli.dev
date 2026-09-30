@@ -9,6 +9,6 @@ You can view at https://trouli.dev/.
 
 ## To do:
 
-- [ ] Update button game so that it can also display number of days.
+- [ ] Update button game so that it can also display number of days (not needed at the moment).
 - [ ] Add kanban board as a project, maybe.
 - [ ] Add nav bar to button game.
