@@ -1,16 +1,15 @@
 :root 
 {
-    --background_colour: #FFC8DC;    
-    --pink_purple: #EBB9DF;
-    --cute_purple: #CDB4DA;
-    --text_colour: #000000;
+    --pink: #FFC8DC;  
+    --black: #000000;
+    --white: #FFFFFF;
 }
 
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--background_colour);
-    color: var(--text_colour(20, 1, 1));
+    background-color: var(--white);
+    color: var(--black(20, 1, 1));
 }
 
 nav {
@@ -20,13 +19,15 @@ nav {
 
     padding: 20px 40px;
 
-    background-color: var(--background_colour);
-    color: var(--text_colour);
+    background-color: var(--pink);
+    color: var(--black);
 }
 
 .name {
     font-size: 24px;
     font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
 }
 
 .nav-links {
@@ -35,7 +36,7 @@ nav {
 }
 
 .nav-links a {
-    color: var(--text_colour);
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -50,7 +51,7 @@ section {
 .hero {
     text-align: center;
     padding: 120px 20px;
-    background-color: var(--background_colour);
+    background-color: var(--white);
 }
 
 .hero h1 {
@@ -60,19 +61,6 @@ section {
 
 .hero p {
     font-size: 20px;
-}
-
-.button {
-    display: inline-block;
-
-    margin-top: 20px;
-    padding: 12px 25px;
-
-    background-color: var(--background_colour);
-    color: var(--text_colour);
-
-    text-decoration: none;
-    border-radius: 5px;
 }
 
 .projects {
@@ -85,12 +73,12 @@ section {
 
     padding: 25px;
 
-    background-color: var(--background_colour);
+    background-color: var(--pink);
     border-radius: 8px;
 }
 
 .project a {
-    color: var(--text_colour);
+    color: var(--black);
 }
 
 h2 {
