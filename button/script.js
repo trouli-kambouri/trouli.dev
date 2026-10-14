@@ -4,7 +4,7 @@ const supabaseClient = window.supabase.createClient(
 )
 
 window.addEventListener("load", (event) => {
-  new cursoreffects.emojiCursor({ emoji: ["🌈", "🌻", "💕", "🐈", "🦄", "🦕", "🐞"], delay: 25 });
+  new cursoreffects.emojiCursor({ emoji: ["🌈", "🌻", "💕", "🐈", "🦄", "🦕", "🐞"], delay: 35 });
 });
 
 async function getClickCount()
