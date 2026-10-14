@@ -9,5 +9,12 @@ You can view at https://trouli.dev/.
 
 ## To do:
 
-- [ ] Add animations to button because it's boring to look at.
+Page
 - [ ] Add kanban board as a project, maybe.
+- [ ] Add animations to the page, like sparkles and shininess.
+- [ ] Add count of number of visitors to the page.
+
+Button
+- [ ] Add animations to button because it's boring.
+- [ ] Add count of number of people who have pressed the button, maybe?
+- [ ] Add leaderboard of number of clicks?
