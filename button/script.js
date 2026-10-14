@@ -3,6 +3,9 @@ const supabaseClient = window.supabase.createClient(
     "sb_publishable_dUsMc7XNS73rzs8ZMjMa-w_vcOmUAoh"
 )
 
+window.addEventListener("load", (event) => {
+  new cursoreffects.emojiCursor({ emoji: ["🌈", "🌻", "💕", "🐈", "🦄", "🦕", "🐞"], delay: 25 });
+});
 
 async function getClickCount()
 {
