@@ -74,6 +74,7 @@ section {
 
 .project {
     flex: 1;
+    font-size: 16px;
 
     padding: 25px;
 
@@ -83,6 +84,7 @@ section {
 
 .project a {
     color: var(--black);
+    font-size: 18px;
 }
 
 h2 {
