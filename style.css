@@ -49,12 +49,12 @@ nav {
 }
 
 section {
-    padding: 80px 10%;
+    padding: 60px 10%;
 }
 
 .hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 160px 20px;
     background-color: var(--white);
 }
 
@@ -83,6 +83,26 @@ section {
 }
 
 .project a {
+    color: var(--black);
+    font-size: 18px;
+}
+
+.sites {
+    display: flex;
+    gap: 20px;
+}
+
+.site {
+    flex: 1;
+    font-size: 16px;
+
+    padding: 25px;
+
+    background-color: var(--pink);
+    border-radius: 8px;
+}
+
+.site a {
     color: var(--black);
     font-size: 18px;
 }
