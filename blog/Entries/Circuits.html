@@ -4,7 +4,7 @@
 
 <head>
     <title>Circuits, The Internet of Things, Embedded Systems</title>
-    <link rel="stylesheet" href="blog/style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -14,44 +14,80 @@
 
             <h1>Circuits, The Internet of Things, Embedded Systems</h1>
 
-            <p>
+        </section>
+
+        <section id="text">       
 
                 I had the absolute pleasure of meeting a very interesting individual on 22/10/2026 called <a href="https://mcqn.com/adrian-mcewen/">Adrian McEwan</a>, who is also the technical lead and co-creator of <a href="https://museuminabox.org/">Museum in a Box</a>, among many other fascinating projects, while attempting to make alterations to a hoodie at <a href="https://doesliverpool.com/">DoES Liverpool</a>.
-                I never did make those alterations, but I did get a brief introduction to programming microchips, a topic which I was completely clueless in, which started my interest in embedded systems. 
+                <br><br>
+
+                I never did make those alterations, but I did get a brief introduction to programming chips, which I was completely clueless in, which started my interest in electronics, or embedded systems specifically. 
                 I mentioned an interest in making a simple desk LED, which I would turn red when I'm working and green when I'm not. (I could just order a colour-changing LED from anywhere, but then I wouldn't learn how to programme and make it myself).
                 Adrian gave me some helpful insights and tips to get started.
+                <br><br>
 
-                I went home and used some <a href="https://en.wikipedia.org/wiki/Computer-aided_design">CAD Software</a> called <a href="https://www.tinkercad.com/circuits">TinkerCAD</a> to make some designs on a breadboard.
+                I used some CAD Software called <a href="https://www.tinkercad.com/circuits">TinkerCAD</a> to make some designs.
+                <br><br>
 
-                Here's how far I have got:
+                Here's how far I got:
+                <br><br><br><br>
 
-                <img src="blog/Photos/arduino_two_LEDs.png" alt="Image of circuit and code" width="500" height="600">
-                This circuit has two separate LEDs, one red and one green, with the idea that you would use two separate buttons to turn them on.
-                This was a starting point, but ideally, I wanted one LED that would cycle through red and green; this avoids the confusion of having both the red and green light on simultaneously.
+                <img src="../Photos/arduino_two_LEDs.png" alt="Image of circuit and code" width="1000" height="500"><br><br>
+                This circuit has two separate buttons for two separate LEDs, one red and one green.<br><br>
+                This was a starting point, but ideally, I wanted one LED that would cycle through red and green. Both for the convenience of having one button, and to avoid the confusion of having both the red and green light on simultaneously. I also decided that if the button could also turn the light off, that would be ideal.
+                <br><br><br><br>
 
-                <img src="blog/Photos/circuit_swap_RGC.png" alt="Image of circuit and code" width="500" height="600">
+                Here's a very professional sketch of what I wanted:
 
+                <br><br>
+                <img src="../Photos/design_RGB_light.png" alt="Image of design" width="600" height="400"> 
+                <br><br><br><br>
 
-                <img src="blog/Photos/code_LED_RGC.png" alt="Image of circuit and code" width="500" height="600">
-                Now we have the circuit and code for an RGB LED, with a button that cycles through red, green, and 'off'. 
+                And here's the circuit and code I made for that:
+                <br><br>
 
-                <img src="blog/Photos/circuit_with_led_strip.png" alt="Image of circuit and code" width="500" height="600">
-
-                <img src="blog/Photos/code_led_strip.png" alt="Image of circuit and code" width="500" height="600">
-                And this is the same but with an LED strip, that was slightly more challenging than a single LED. 
-
-                Considering I have (or had?) no experience making circuits or programming in C, I am pretty happy with my progress so far.
-
-                I need to learn more about delays and their significance, get my code checked, learn how to solder, and source the materials (probably from DOES).
+                <img src="../Photos/circuit_swap_RGC.png" alt="Image of circuit and code" width="900" height="600"> 
+                <br><br>
                 
+
+                <img src="../Photos/code_LED_RGC.png" alt="Image of circuit and code" width="440" height="800">
+                <br><br>
+
+                Now we have the circuit and code for an RGB LED, with a button that cycles through red, green, and 'off' - i.e., no colour.
+                <br><br>
+
+                Next I wanted to adapt this to an LED strip, with the idea that I could place the LED strip somewhere on my wall or under my desk, and the button for it on my desk.
+                <br><br>
+
+                Like so:
+                <br><br>
+
+                <img src="../Photos/desk_led_strip.png" alt="Image of circuit and code" width="550" height="300">
+                <br><br><br><br>
+
+                This is the circuit and code I made for the LED strip:
+                <br><br>
+
+                <img src="../Photos/circuit_with_led_strip.png" alt="Image of circuit and code" width="800" height="600">
+                <br><br>
+
+                <img src="../Photos/code_led_strip.png" alt="Image of circuit and code" width="520" height="860">
+                <br><br>
+
+                Programming the LED strip was slightly more challenging than a single LED as I included the Adafruit Neopixel library and had to ensure that the code cycles through each LED correctly.
+                <br><br><br><br>
+
+                Considering I have (or had?) no experience in electronics or designing circuits, or much experience programming in C, I am happy with my progress so far.
+                <br><br>
+
+                Next, I should learn more about delays and their significance, and I don't really understand resistor values as much as I'd like. I should also probably learn how to solder and fetch some materials (probably from DOES).<br><br>
+                <br><br>
                 TBC!
-
-            </p>
-
+        </section>
     </main>
 
 <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-<script src="blog/script.js"></script>
+<script src="../script.js"></script>
 
 </body>
 </html>
