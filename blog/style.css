@@ -1,0 +1,112 @@
+:root 
+{
+    --pink: #FFC8DC;  
+    --black: #000000;
+    --white: whitesmoke;
+}
+
+* {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦄</text></svg>") 16 0,auto; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--white);
+    color: var(--black(20, 1, 1));
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background-color: var(--pink);
+    color: var(--black);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.hero {
+    text-align: center;
+    padding: 160px 20px;
+    background-color: var(--white);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    flex: 1;
+    font-size: 16px;
+
+    padding: 25px;
+
+    background-color: var(--pink);
+    border-radius: 8px;
+}
+
+.project a {
+    color: var(--black);
+    font-size: 18px;
+}
+
+.sites {
+    display: flex;
+    gap: 20px;
+}
+
+.site {
+    flex: 1;
+    font-size: 16px;
+
+    padding: 25px;
+
+    background-color: var(--pink);
+    border-radius: 8px;
+}
+
+.site a {
+    color: var(--black);
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
+}
