@@ -13,15 +13,14 @@ You can view at https://trouli.dev/.
 - [ ] Add a site footer
 - [ ] Dark mode
 - [ ] Update the html template for the blog entries (what for?)
+- [ ] Add mobile mode
 
 ### Projects
 - [ ] Kanban board needs an external database for the background image (such as Supabase) so that there isn't a delay while the html loads the background.
 - [ ] Button needs to stop taking up the whole screen horizontally.
 
 ### Blog
-- [ ] Entry for learning FAST API I guess - when I have made more notes and I know more things
-- [ ] Entry for my 'hangman' word game in Kotlin and my google play dev account WHEN I eventually get back into making that (currently stuck on the spinning wheel and need to learn more kotlin/refactor, and otherwise occupied with FAST API)
-
+- [ ] Entry for 'hangman' word game in Kotlin and google play dev account
 
 ## Extra features
 - [ ] More projects I guess.
