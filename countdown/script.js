@@ -1,3 +1,8 @@
+
+window.addEventListener("load", (event) => {
+  new cursoreffects.emojiCursor({ emoji: ["🌈", "💕", "🐈", "🦄", "🦕", "🦋", "💖", "🌞", "🦄", "🌈", "🐞", "😺", "🦕", "💕","✨", "🌸", "🐢", "💖", "🌈", "🍓", "🐛"], delay: 35 });
+});
+
 var countdownDate = new Date ("Dec 21, 2029 00:00:00").getTime();
 
 var i = setInterval(function(){

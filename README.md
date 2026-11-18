@@ -7,6 +7,7 @@ You can view at https://trouli.dev/.
 ## Done:
 - [X] Add kanban board as a project, maybe.
 - [X] Blog
+- [X] Button needs to stop taking up the whole screen horizontally.
 
 ## To do:
 ### Page
@@ -17,7 +18,6 @@ You can view at https://trouli.dev/.
 
 ### Projects
 - [ ] Kanban board needs an external database for the background image (such as Supabase) so that there isn't a delay while the html loads the background.
-- [ ] Button needs to stop taking up the whole screen horizontally.
 
 ### Blog
 - [ ] Entry for 'hangman' word game in Kotlin and google play dev account
@@ -27,5 +27,5 @@ You can view at https://trouli.dev/.
 - [ ] Add animations to the page, like sparkles.
 - [ ] Add count of number of visitors to the page.
 - [ ] Add animations to button because it's boring.
-- [ ] Add automated style changes and messages for halloween/xmas/other events, maybe.
-- [ ] Do I want any way of noting a date for blogs? Or filtering through blogs? Maybe a thought for when there are more entries.
+- [ ] Add automated style changes and messages for halloween/xmas/other events, maybe?
+- [ ] Do I want any way of noting a date for blogs? Or filtering through blogs? A search bar? Maybe when there are more entries.
