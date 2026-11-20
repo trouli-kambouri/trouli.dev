@@ -67,26 +67,6 @@ section {
     font-size: 20px;
 }
 
-.projects {
-    display: flex;
-    gap: 20px;
-}
-
-.project {
-    flex: 1;
-    font-size: 16px;
-
-    padding: 25px;
-
-    background-color: var(--pink);
-    border-radius: 8px;
-}
-
-.project a {
-    color: var(--black);
-    font-size: 18px;
-}
-
 .sites {
     display: flex;
     gap: 20px;
@@ -94,7 +74,7 @@ section {
 
 .site {
     flex: 1;
-    font-size: 16px;
+    font-size: 20px;
 
     padding: 25px;
 
@@ -104,7 +84,7 @@ section {
 
 .site a {
     color: var(--black);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h2 {
