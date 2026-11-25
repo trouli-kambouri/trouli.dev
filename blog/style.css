@@ -37,6 +37,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 25px;
+    font-size: 22px;
 }
 
 .nav-links a {
@@ -58,7 +59,7 @@ section {
 
 .hero h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 44px;
     margin-bottom: 10px;
     background-color: var(--pink);
 }
@@ -67,7 +68,7 @@ section {
     margin-left: 40px;
     margin-right: 40px;
     text-align: left;
-    font-size: 18px;
+    font-size: 22px;
     background-color: var(--white);
 }
 
@@ -76,7 +77,7 @@ section {
     margin-right: 40px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     background-color: var(--white);
 }
 
@@ -94,7 +95,7 @@ section {
 
 .project {
     flex: 1;
-    font-size: 16px;
+    font-size: 22px;
 
     padding: 25px;
 
@@ -104,7 +105,7 @@ section {
 
 .project a {
     color: var(--black);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .sites {
@@ -114,7 +115,7 @@ section {
 
 .site {
     flex: 1;
-    font-size: 16px;
+    font-size: 22px;
 
     padding: 25px;
 
@@ -124,7 +125,7 @@ section {
 
 .site a {
     color: var(--black);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h2 {

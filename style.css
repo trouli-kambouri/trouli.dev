@@ -14,8 +14,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--white);
     color: var(--black(20, 1, 1));
+    word-wrap: break-word;
 }
 
+/*
 nav {
     display: flex;
     justify-content: space-between;
@@ -38,6 +40,7 @@ nav {
     display: flex;
     gap: 25px;
 }
+*/
 
 .nav-links a {
     color: var(--black);
@@ -68,7 +71,8 @@ section {
 }
 
 .sites {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     gap: 20px;
 }
 
@@ -87,6 +91,33 @@ section {
     font-size: 20px;
 }
 
+
+.blogs {
+    display: grid;
+    grid-template-columns: 80%;
+    gap: 20px;
+}
+
+.blog {
+    flex: 1;
+    font-size: 20px;
+
+    padding: 25px;
+
+    background-color: var(--pink);
+    border-radius: 8px;
+}
+
+.blog a {
+    color: var(--black);
+    font-size: 20px;
+}
+
+
 h2 {
     font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
 }
